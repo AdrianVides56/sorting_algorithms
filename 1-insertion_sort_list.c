@@ -1,8 +1,8 @@
 #include "sort.h"
 
 /**
- * insertion_sort_list(listint_t **list) - sorts a doubly linked list
- *  using the insertion sort algorithm
+ * insertion_sort_list - sorts a doubly linked list
+ * using the insertion sort algorithm
  * @list: list to sort
  */
 void insertion_sort_list(listint_t **list)
@@ -30,7 +30,12 @@ void insertion_sort_list(listint_t **list)
 	}
 }
 
-
+/**
+ * swap_nodes - swap node1 and node2 places
+ * @list: linked list
+ * @node1: current node
+ * @node2: next node to current
+ */
 void swap_nodes(listint_t **list, listint_t **node1, listint_t **node2)
 {
 	listint_t *aux = (*node1)->prev;
