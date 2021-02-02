@@ -1,6 +1,21 @@
 #include "sort.h"
 
 /**
+ * size_list - returns the size of the list
+ * @list: list
+ * Return: size
+ */
+int size_list(listint_t **list)
+{
+	int size = 0;
+	listint_t *aux = NULL;
+
+	for (aux = *list; aux != NULL; aux = aux->next)
+		size++;
+
+	return (size);
+}
+/**
  * swap_nodes - swap node1 and node2 places
  * @list: linked list
  * @node1: current node
@@ -31,8 +46,9 @@ void swap_nodes(listint_t **list, listint_t **node1, listint_t **node2)
 void insertion_sort_list(listint_t **list)
 {
 	listint_t *tmp = NULL, *current = *list;
+	int size = size_list(list);
 
-	if ((*list) == NULL || !list)
+	if (!(*list) || !list)
 		return;
 
 	while (current->next != NULL)
@@ -42,13 +58,16 @@ void insertion_sort_list(listint_t **list)
 		{
 			swap_nodes(list, &tmp->prev, &tmp);
 			print_list(*list);
-			current = tmp->prev;
-			while (tmp->prev != NULL && tmp->n < tmp->prev->n)
+			current = tmp;
+			while (tmp->prev != NULL && tmp->n < tmp->prev->n &&
+			       size != 2)
 			{
 				swap_nodes(list, &tmp->prev, &tmp);
 				print_list(*list);
 			}
 		}
+		if (current == NULL)
+			break;
 		current = current->next;
 	}
 }
