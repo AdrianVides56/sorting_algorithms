@@ -33,6 +33,12 @@ void selection_sort(int *array, size_t size)
 	}
 }
 
+/**
+ * max_int - finds the greater number in an array
+ * @array: array
+ * @size: size of the array
+ * Return: max integer
+ */
 int max_int(int *array, size_t size)
 {
 	int max = 0;
