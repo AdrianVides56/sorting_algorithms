@@ -1,4 +1,9 @@
 #include "sort.h"
+
+void quicksort(int *array, ssize_t start, ssize_t next, size_t size);
+void swap(int *n1, int *n2);
+int partition(int *array, ssize_t start, ssize_t next, size_t size);
+
 /**
  * quick_sort - Sorts an array of integers in asceding order using the
  * quick sort Algorithm that implements the Lomuto partition scheme.
