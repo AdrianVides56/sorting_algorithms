@@ -113,5 +113,6 @@ Here is a quick tip to help you test your sorting algorithms with big sets of ra
 ----------------------------------------------------------
 
 ## Contributors
-* [Adrian Vides](@termi56661)
-* [Julian Archbold](@archbold.julian)
+
+* [Adrian Vides](https://github.com/AdrianVides56)
+* [Julian Archbold](https://github.com/kiba0510)
