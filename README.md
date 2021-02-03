@@ -1,4 +1,4 @@
-Format: ![Holberton](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.holbertonschool.com%2Fholberton-logo.png&imgrefurl=https%3A%2F%2Fwww.holbertonschool.com%2Fcampus_life%2Fmedellin&tbnid=-eG0CiRRlQv9sM&vet=12ahUKEwjAz-fHo87uAhVLqlkKHfM2DHIQMygBegUIARCcAQ..i&docid=pDGHPh71mZqlYM&w=409&h=128&q=holberton%20colombia&ved=2ahUKEwjAz-fHo87uAhVLqlkKHfM2DHIQMygBegUIARCcAQ)
+![Holberton](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.holbertonschool.com%2Fholberton-logo.png&imgrefurl=https%3A%2F%2Fwww.holbertonschool.com%2Fcampus_life%2Fmedellin&tbnid=-eG0CiRRlQv9sM&vet=12ahUKEwjAz-fHo87uAhVLqlkKHfM2DHIQMygBegUIARCcAQ..i&docid=pDGHPh71mZqlYM&w=409&h=128&q=holberton%20colombia&ved=2ahUKEwjAz-fHo87uAhVLqlkKHfM2DHIQMygBegUIARCcAQ)
 
 # C - Sorting algorithms & Big O
 
