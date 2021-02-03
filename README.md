@@ -1,4 +1,4 @@
-# C - Sorting algorithms & Big O
+# C - Sorting algorithms & Big O :C:
 
 ## Resources :books:
 * [Sorting Algorithms](https://intranet.hbtn.io/rltoken/tmzgO7xhCpNgPUxVhLKibw)
