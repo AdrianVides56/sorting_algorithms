@@ -114,5 +114,5 @@ Here is a quick tip to help you test your sorting algorithms with big sets of ra
 
 ## Contributors
 
-* [Adrian Vides](https://github.com/AdrianVides56)
+* ![github_icon](https://user-images.githubusercontent.com/70171411/106794470-e44d6580-6626-11eb-8c9a-bcff354e7d06.png) [Adrian Vides](https://github.com/AdrianVides56)
 * [Julian Archbold](https://github.com/kiba0510)
