@@ -32,7 +32,7 @@ void insertion_sort_list(listint_t **list)
 {
 	listint_t *tmp = NULL, *current = NULL;
 
-	if (!(*list) || !list)
+	if (!list || !(*list))
 		return;
 
 	current = *list;
