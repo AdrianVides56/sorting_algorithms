@@ -111,12 +111,7 @@ typedef struct listint_s
 ### Tests
 Here is a quick tip to help you test your sorting algorithms with big sets of random integers: [Random.org](https://intranet.hbtn.io/rltoken/KkFXByKWf55lTK32JnY62w)
 ----------------------------------------------------------
-## File List :clipboard:
 
-# | Files | Description
---|-------|------------
-1 | README.md | ...
-2 | sort.h | Header File
-3 | 0-bubble_sort.c | function that sorts an array of integers in ascending order using the [Bubble sort](https://intranet.hbtn.io/rltoken/fCItpIfgmE07fFbHBUToeg) algorithm
-4 | 0-O | Time complexity of the Bubble sorting algorithm
-
+## Contributors
+* [Adrian Vides](@termi56661)
+* [Julian Archbold](@archbold.julian)
