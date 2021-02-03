@@ -1,5 +1,3 @@
-![Holberton](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.holbertonschool.com%2Fholberton-logo.png&imgrefurl=https%3A%2F%2Fwww.holbertonschool.com%2Fcampus_life%2Fmedellin&tbnid=-eG0CiRRlQv9sM&vet=12ahUKEwjAz-fHo87uAhVLqlkKHfM2DHIQMygBegUIARCcAQ..i&docid=pDGHPh71mZqlYM&w=409&h=128&q=holberton%20colombia&ved=2ahUKEwjAz-fHo87uAhVLqlkKHfM2DHIQMygBegUIARCcAQ)
-
 # C - Sorting algorithms & Big O
 
 ## Resources :books:
@@ -114,6 +112,5 @@ Here is a quick tip to help you test your sorting algorithms with big sets of ra
 
 ## Contributors
 
-[![github](https://github.com/AdrianVides56/assets/17016297/18839843/0e06a67a-83d2-11e6-993a-b35a182500e0.png)]
 * [Adrian Vides](https://github.com/AdrianVides56)
 * [Julian Archbold](https://github.com/kiba0510)
