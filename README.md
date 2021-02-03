@@ -3,23 +3,24 @@
 # C - Sorting algorithms & Big O
 
 ## Resources :books:
------------------------------------------
+
 * [Sorting Algorithms](https://intranet.hbtn.io/rltoken/tmzgO7xhCpNgPUxVhLKibw)
 * [Big O Notation](https://intranet.hbtn.io/rltoken/XrLMaOhUMHfwsFEz15TVow)
 * [Sorting Algorithms Animation](https://intranet.hbtn.io/rltoken/kJ7rgWoqdLnxSnSEoAiFCQ)
 * [15 Sorting Algorithms in 6 Minutes](https://intranet.hbtn.io/rltoken/RdvoGNMTJ6Hq34aJ_HmCqA)
+-------------------------------------------
 
 ## Learning Objectives
-------------------------------------------
+
 * At least four different sorting algorithms.
 * What is the Big O notation, and how to evaluate the time complexity of an algorithm.
 * How to select the best sorting algorithm for a given input.
 * What is a stable sorting algorithm.
+-----------------------------------------
 
 ## Requirements
 
 ### General
--------------------------------------------
 * Allowed editors: ```vi```, ```vim```, ```emacs```.
 * All your files will be compiled on Ubuntu 14.04 LTS.
 * Your programs and functions will be compiled with ```gcc 4.8.4``` using the flags ```-Wall``` ```-Werror``` ```-Wextra``` and ```-pedantic```
@@ -34,10 +35,12 @@
 * Don’t forget to push your header file
 * All your header files should be include guarded
 * A list/array does not need to be sorted if its size is less than 2.
+---------------------------------------------------------------------
 
 ## More Usefull Info
+
 ### Data Structure and Functions
----------------------------------------------
+
 * For this project you are given the following ```print_array```, and ```print_list``` functions:
 ```
 #include <stdlib.h>
@@ -89,3 +92,31 @@ void print_list(const listint_t *list)
     printf("\n");
 }
 ```
+* Please use the following data structure for doubly linked list:
+```
+/**
+ * struct listint_s - Doubly linked list node
+ *
+ * @n: Integer stored in the node
+ * @prev: Pointer to the previous element of the list
+ * @next: Pointer to the next element of the list
+ */
+typedef struct listint_s
+{
+    const int n;
+    struct listint_s *prev;
+    struct listint_s *next;
+} listint_t;
+```
+### Tests
+Here is a quick tip to help you test your sorting algorithms with big sets of random integers: [Random.org](https://intranet.hbtn.io/rltoken/KkFXByKWf55lTK32JnY62w)
+----------------------------------------------------------
+## File List :clipboard:
+
+# | Files | Description
+--|-------|------------
+1 | README.md | ...
+2 | sort.h | Header File
+3 | 0-bubble_sort.c | function that sorts an array of integers in ascending order using the [Bubble sort](https://intranet.hbtn.io/rltoken/fCItpIfgmE07fFbHBUToeg) algorithm
+4 | 0-O | Time complexity of the Bubble sorting algorithm
+
